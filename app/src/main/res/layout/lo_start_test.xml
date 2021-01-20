@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/wstepTestTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:text="Przed Tobą test dokładnie taki, jak rozwiązują sędziowie od C-klasy aż po samą Ekstraklasę!
+Test składa się z 30 pytań, odpowiedzi są jednokrotnego i wielokrotnego wyboru, jak również decyzyjne.
+Na rozwiązanie masz 30 minut, które będzie odliczał stoper.
+Nie ma powrotu do pytania, a zmiana odpowiedzi po jej naciśnięciu jest niemożliwa! Dokładnie jak na boisku - gwizdka nie cofniesz ;)
+POWODZENIA!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnStartTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="START"
+        app:layout_constraintTop_toBottomOf="@+id/wstepTestTxt"
+        tools:layout_editor_absoluteX="161dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/testHelpTxt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:text="
+G - Grać dalej
+Br - Bramka
+RzB - Rzut od bramki
+W - Wrzut
+R - Rzut rożny
+B - Rzut wolny bezpośredni
+P - Rzut wolny pośredni
+S - Rzut sędziowski
+Z - Zakończenie zawodów
+
++ - żółta kartka
+++ - czerwona kartka"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/testHelpTxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/testHelpTxt1"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="
+TEST: 30 pytań, pytania jednokrotnego i wielokrotnego wyboru, decyzyjne
+CZAS: 30 minut
+Nie można zmienić wybranej odpowiedzi - gwizdka nie cofniesz ;)
+POWODZENIA!" />
+</RelativeLayout>
